@@ -1,85 +1,149 @@
 ---
 permalink: /about/
-title: "About"
-excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
-layouts_gallery:
-  - url: /assets/images/mm-layout-splash.png
-    image_path: /assets/images/mm-layout-splash.png
-    alt: "splash layout example"
-  - url: /assets/images/mm-layout-single-meta.png
-    image_path: /assets/images/mm-layout-single-meta.png
-    alt: "single layout with comments and related posts"
-  - url: /assets/images/mm-layout-archive.png
-    image_path: /assets/images/mm-layout-archive.png
-    alt: "archive layout example"
-last_modified_at: 2022-05-27T11:59:26-04:00
+title: "關於我"
+excerpt: "以邏輯與高效率推動協作與問題拆解。"
+last_modified_at: 2024-03-15T09:00:00+08:00
 toc: true
 ---
 
-Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or self-hosting on your own server. As the name implies --- styling is purposely minimalistic to be enhanced and customized by you :smile:.
+## 基本資料
 
-{% include gallery id="layouts_gallery" caption="Examples of included layouts `splash`, `single`, and `archive`." %}
+- 姓名：曾家彥
+- 生日：1981/12
+- 電話：0921187363
+- 電子郵件：chia.yen.tseng@gmail.com
+- 現職：日威科技股份有限公司
 
-[Install the Theme]({{ "/docs/quick-start-guide/" | relative_url }}){: .btn .btn--success .btn--large}
+## 學歷
 
-## Notable Features
+- 中原大學 機械系 博士（2011 畢業）
+- 中原大學 機械系 碩士（2005 畢業）
 
-- Bundled as a "theme gem" for easier install/upgrading.
-- Compatible with GitHub Pages.
-- Support for Jekyll's built-in Sass/SCSS preprocessor.
-- Nine different skins (color variations).
-- Several responsive layout options (single, archive index, search, splash, and paginated home page).
-- Optimized for search engines with support for [Twitter Cards](https://dev.twitter.com/cards/overview) and [Open Graph](http://ogp.me/) data
-- Optional [header images](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#headers), [custom sidebars](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#sidebars), [table of contents](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#table-of-contents), [galleries](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#gallery), related posts, [breadcrumb links](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#breadcrumb-navigation-beta), [navigation lists](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#navigation-list), and more.
-- Commenting support (powered by [Disqus](https://disqus.com/), [Facebook](https://developers.facebook.com/docs/plugins/comments), [Discourse](https://www.discourse.org/), [utterances](https://utteranc.es/), [giscus](https://giscus.app/), static-based via [Staticman v1 and v2](https://staticman.net/), and custom).
-- [Google Analytics](https://www.google.com/analytics/) support.
-- UI localized text in English (default), Arabic (عربي), Brazilian Portuguese (Português brasileiro), Bulgarian, Catalan, Chinese, Czech, Danish, Dutch, Finnish, French (Français), German (Deutsch), Greek, Hebrew, Hindi (हिंदी), Hungarian, Indonesian, Irish (Gaeilge), Italian (Italiano), Japanese, Kiswahili, Korean, Malayalam, Myanmar (Burmese), Nepali (Nepalese), Norwegian (Norsk), Persian (فارسی), Polish, Punjabi (ਪੰਜਾਬੀ), Romanian, Russian, Slovak, Spanish (Español), Swedish, Thai, Turkish (Türkçe), and Vietnamese.
+## 工作經歷
 
-## Demo Pages
+- 日威科技股份有限公司 副總（2017~）
+- 旭弘全球股份有限公司 執行長（數據分析與行為預測）
+- 中原大學 模具與成型研發中心 博士後研究員（先進技術開發）
+- 中原大學 薄膜研發中心 博士後研究員（高分子加工）
 
-| Name                                        | Description                                           |
-| ------------------------------------------- | ----------------------------------------------------- |
-| [Post with Header Image][header-image-post] | A post with a large header image. |
-| [HTML Tags and Formatting Post][html-tags-post] | A variety of common markup showing how the theme styles them. |
-| [Syntax Highlighting Post][syntax-post] | Post displaying highlighted code. |
-| [Post with a Gallery][gallery-post] | A post showing several images wrapped in `<figure>` elements. |
-| [Sample Collection Page][sample-collection] | Single page from a collection. |
-| [Categories Archive][categories-archive] | Posts grouped by category. |
-| [Tags Archive][tags-archive] | Posts grouped by tag. |
+## 開發專案執行經驗
 
-For even more demo pages check the [posts archive][year-archive].
+- 112 疫後、疫後大帶小、AI 供應鏈科專
+- 110 年度推動中小企業智慧製造數位轉型計畫
+- 109 精準暨高效率之射出/加工產業即時輔助排程數位決策系統開發計畫
+- 108 最適化塑膠射出工廠智慧化即時管理服務開發計畫
+- 協助製造業智慧應用升級輔導計畫 SMU（8 案以上）
+- 智慧機上盒 SMB 輔導計畫（300 台以上）
 
-[header-image-post]: {{ "" | relative_url }}{% post_url 2012-03-15-layout-header-image-text-readability %}
-[gallery-post]: {{ "" | relative_url }}{% post_url 2010-09-09-post-gallery %}
-[html-tags-post]: {{ "" | relative_url }}{% post_url 2013-01-11-markup-html-tags-and-formatting %}
-[syntax-post]: {{ "" | relative_url }}{% post_url 2013-08-16-markup-syntax-highlighting %}
-[sample-collection]: {{ "/recipes/chocolate-chip-cookies/" | relative_url }}
-[categories-archive]: {{ "/categories/" | relative_url }}
-[tags-archive]: {{ "/tags/" | relative_url }}
-[year-archive]: {{ "/year-archive/" | relative_url }}
+## 個人能力
 
----
+- 市場業務開發、產品開發規劃（MES、QMS、WMS、SMB）
+- 先進製程開發能力與顧問（射出成型領域）
+- 智慧製造與數位轉型顧問
 
-## Credits
+## 職涯願景
 
-### Icons + Demo Images:
+同時具備傳統加工領域的專業知識與數位轉型的 IT 能力，期待能將此跨域整合能力發揮極致，協助產業發展創新的生產營運模式並為產業創造更高利潤。
 
-- [The Noun Project](https://thenounproject.com) -- Garrett Knoll, Arthur Shlain, and [tracy tam](https://thenounproject.com/tracytam)
-- [Font Awesome](http://fontawesome.io/)
-- [Unsplash](https://unsplash.com/)
+## 我做事的風格
 
-### Other:
+1. 工作會參照 todo list 的時間，判斷短暫的會先處理完，判斷長時間的會抓出所需的時間前開始，越緊急的時候會越專注。
+2. 對於無法掌控的事情會容易產生焦慮，就會想要鑽研或問清楚到搞懂。
+3. 注重處理事情的邏輯，邏輯正確就會比較不在乎結果。
+4. 顯示生產者，會以回應的方式來開啟工作，速度快但細節差。
 
-- [Jekyll](https://jekyllrb.com/)
-- [jQuery](https://jquery.com/)
-- [Susy](http://susy.oddbird.net/)
-- [Breakpoint](http://breakpoint-sass.com/)
-- [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/)
-- [FitVids.JS](http://fitvidsjs.com/)
-- Greedy Navigation - [lukejacksonn](https://codepen.io/lukejacksonn/pen/PwmwWV)
-- [jQuery Smooth Scroll](https://github.com/kswedberg/jquery-smooth-scroll)
-- [Lunr](http://lunrjs.com)
+## 我能提供的價值
 
----
+1. 什麼事都可以討論，只要有問題問我一定會想辦法找出答案或解決方法。
+2. 傾聽與分析找到共識。
+3. 提供新的 idea。
+4. 對新領域的切入速度快。
+5. 發現問題的關鍵點。
+6. 對多方資訊的整合能力。
 
-Minimal Mistakes is designed, developed, and maintained by Michael Rose. Just another boring, tattooed, designer from Buffalo New York.
+## 什麼事會讓我沒耐心
+
+1. 重複發生的錯誤。
+2. 沒有建設性的批評。
+3. 抱怨。
+
+## 怎麼樣的溝通對我來說最有效率
+
+1. 熱情很快會冷卻，在我感到有趣時溝通最有效率。
+2. 情境 + 關鍵字 + 處理方式。
+
+## 如果需要，我希望獲得哪些幫助
+
+1. 挑戰我邏輯盲點。
+2. 阻止討論發散。
+3. 執行工作 owner 發放。
+4. 紀錄結論。
+5. 人員管理。
+
+## 別人最常誤解我的事
+
+1. 真心詢問被誤會為挑戰。
+2. 以為我什麼都懂。
+
+## 工作時間
+
+1. 外出時間居多，可以在車上討論工作。
+2. 早上到公司習慣先處理緊急或者要派發的事，10:00 過後開始處理文件。
+3. 16:00 過後處理需要專注時間的文件。
+
+## 協作溝通
+
+1. 傾向實體、電話溝通當下解決。
+2. Line 或 mail 的溝通可以，但要以情境描述與分點描述原則。
+3. 文件不清楚下會讓我一直產生新疑問，但好處可以讓我記錄下來問題。
+
+## 會議原則
+
+希望會議是推進工作跟決策，不要花太多時間對齊資訊。
+
+## 儀式習慣
+
+戴上耳機表示我在專注，先發 Line 訊息給我讓我告一段落。
+
+## 目的驅動
+
+確認情境 + 目的。
+
+## 建立系統
+
+1. 方法總比問題多，不要一直說有問題，要說解方跟代價。
+2. 建立可傳遞性。
+3. 老路找不到新大陸。
+
+## 給自己充電的方式
+
+1. 睡覺。
+2. 聽音樂會。
+3. 與別人對話解決問題 & 達成共識。
+
+## 我最高效的工作方式
+
+1. 每一個決策都有專業人士提供精確判斷。
+2. 打造以高效率運作為主的工作圈，所有圍繞著我的人價值觀一致（高頻同步、高速反饋、高效執行）。
+3. 與願景策略能力強的夥伴進行討論，再安排細節與執行能力強的團隊下手執行。
+4. 我善於發現問題的關鍵點，多從實際問題出發，建立方案後避免自己執行。
+
+## 什麼環境能讓我長期保持優勢
+
+1. 自由度高、試錯程度高、不循規蹈矩。
+2. 在願景與策略能力特別有價值的環境。
+3. 和執行能力強的夥伴一起工作，不合光說不練的人一起工作，這些人可以成為合作關係，但不是主要共事的人。
+4. 和眼界寬廣的人一起相處，提供不同價值觀的撞擊。
+
+## 什麼樣的狀況能讓我充滿靈感
+
+1. 一個人能靜下來時。
+2. 專注在自己身上以及能夠產生洞察力時。
+3. 各項閱讀。
+
+## 什麼樣的人適合跟我工作
+
+1. 自我驅動能力強的人、自己管束自己能力強的人。
+2. 勤勞於思維與執行的人。
+3. 勇於檢視自己並時刻修正自己的人。
+4. 永保保持學習態度、並留意自己的謙遜。

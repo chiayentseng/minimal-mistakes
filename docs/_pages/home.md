@@ -6,33 +6,33 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/mm-home-page-feature.jpg
   actions:
-    - label: "<i class='fas fa-download'></i> Install now"
-      url: "/docs/quick-start-guide/"
+    - label: "<i class='fas fa-user'></i> 認識我"
+      url: "/about/"
 excerpt: >
-  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
-  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.27.3">Latest release v4.27.3</a></small>
+  以邏輯為核心、重視高效協作與問題拆解的工作筆記。<br />
+  <small>聚焦跨域整合、智慧製造與高效決策。</small>
 feature_row:
   - image_path: /assets/images/mm-customizable-feature.png
-    alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
+    alt: "work-style"
+    title: "工作風格"
+    excerpt: "依時間與緊急度排序，邏輯正確優先，遇到不可控因素會深入理解到能掌握。"
+    url: "/about/#我做事的風格"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
+    btn_label: "了解更多"
   - image_path: /assets/images/mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
-    url: "/docs/layouts/"
+    alt: "value"
+    title: "價值主張"
+    excerpt: "擅長整合多方資訊、找出關鍵點、提供新想法，快速切入新領域並推動共識。"
+    url: "/about/#我能提供的價值"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
+    btn_label: "了解更多"
   - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
-    url: "/docs/license/"
+    alt: "collaboration"
+    title: "協作期待"
+    excerpt: "熱情驅動、情境清晰、分點描述；會議聚焦決策與推進，不花時間對齊資訊。"
+    url: "/about/#怎麼樣的溝通對我來說最有效率"
     btn_class: "btn--primary"
-    btn_label: "Learn more"      
+    btn_label: "了解更多"
 ---
 
 {% include feature_row %}
