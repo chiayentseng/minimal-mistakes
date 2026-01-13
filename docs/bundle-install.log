@@ -1,0 +1,181 @@
+Don't run Bundler as root. Installing your bundle as root will break this
+application for all non-root users on this machine.
+Fetching source index from https://rubygems.org/
+
+Retrying fetcher due to error (2/4): Net::HTTPClientException 403 "Forbidden"
+
+Retrying fetcher due to error (3/4): Net::HTTPClientException 403 "Forbidden"
+
+Retrying fetcher due to error (4/4): Net::HTTPClientException 403 "Forbidden"
+
+--- ERROR REPORT TEMPLATE -------------------------------------------------------
+
+```
+Net::HTTPClientException: 403 "Forbidden"
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/net/http/response.rb:277:in `error!'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/net/http/response.rb:286:in `value'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/net/http.rb:1625:in `connect'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/net/http.rb:1580:in `do_start'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/net/http.rb:1575:in `start'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/rubygems/request/http_pool.rb:44:in `setup_connection'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/rubygems/request/https_pool.rb:8:in `setup_connection'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/rubygems/request/http_pool.rb:40:in `make_connection'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/rubygems/request/http_pool.rb:21:in `checkout'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/rubygems/request.rb:130:in `connection_for'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/rubygems/request.rb:189:in `perform_request'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/rubygems/request.rb:155:in `fetch'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/rubygems/remote_fetcher.rb:310:in `request'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/rubygems/remote_fetcher.rb:210:in `fetch_http'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/rubygems/remote_fetcher.rb:249:in `fetch_path'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/rubygems_integration.rb:455:in `fetch_specs'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/rubygems_integration.rb:463:in `fetch_all_remote_specs'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/fetcher/index.rb:9:in `specs'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/fetcher.rb:143:in `block in specs'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/fetcher.rb:142:in `drop_while'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/fetcher.rb:142:in `specs'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/fetcher.rb:129:in `block in specs_with_retry'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/retry.rb:40:in `run'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/retry.rb:30:in `attempt'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/fetcher.rb:128:in `specs_with_retry'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/source/rubygems.rb:423:in `block in fetch_names'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/source/rubygems.rb:416:in `each'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/source/rubygems.rb:416:in `fetch_names'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/source/rubygems.rb:403:in `block in remote_specs'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/index.rb:9:in `build'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/source/rubygems.rb:399:in `remote_specs'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/source/rubygems.rb:133:in `specs'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/resolver.rb:40:in `block in setup_solver'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/resolver.rb:232:in `all_versions_for'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/resolver.rb:49:in `block in setup_solver'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/resolver.rb:151:in `versions_for'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/resolver.rb:347:in `block in prepare_dependencies'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/resolver.rb:342:in `each'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/resolver.rb:342:in `map'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/resolver.rb:342:in `prepare_dependencies'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/resolver.rb:53:in `setup_solver'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/resolver.rb:28:in `start'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/definition.rb:570:in `start_resolution'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/definition.rb:301:in `resolve'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/definition.rb:523:in `materialize'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/definition.rb:200:in `specs'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/installer.rb:231:in `ensure_specs_are_compatible!'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/installer.rb:83:in `block in run'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/process_lock.rb:12:in `block in lock'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/process_lock.rb:9:in `open'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/process_lock.rb:9:in `lock'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/installer.rb:71:in `run'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/installer.rb:23:in `install'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/cli/install.rb:62:in `run'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/cli.rb:261:in `block in install'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/settings.rb:130:in `temporary'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/cli.rb:260:in `install'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/vendor/thor/lib/thor/command.rb:27:in `run'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/vendor/thor/lib/thor/invocation.rb:127:in `invoke_command'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/vendor/thor/lib/thor.rb:392:in `dispatch'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/cli.rb:34:in `dispatch'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/vendor/thor/lib/thor/base.rb:485:in `start'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/cli.rb:28:in `start'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-2.4.19/libexec/bundle:37:in `block in <top (required)>'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/3.2.0/bundler/friendly_errors.rb:117:in `with_friendly_errors'
+  /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/gems/3.2.0/gems/bundler-2.4.19/libexec/bundle:29:in `<top (required)>'
+  /root/.local/share/mise/installs/ruby/3.2.3/bin/bundle:31:in `load'
+  /root/.local/share/mise/installs/ruby/3.2.3/bin/bundle:31:in `<main>'
+
+```
+
+## Environment
+
+```
+Bundler       2.4.19
+  Platforms   ruby, x86_64-linux
+Ruby          3.2.3p157 (2024-01-18 revision 52bb2ac0a6971d0391efa2275f7a66bff319087c) [x86_64-linux]
+  Full Path   /root/.local/share/mise/installs/ruby/3.2.3/bin/ruby
+  Config Dir  /home/linuxbrew/.linuxbrew/Cellar/jdx-ruby@3.2.3/3.2.3/etc
+RubyGems      3.4.19
+  Gem Home    /root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/gems/3.2.0
+  Gem Path    /root/.local/share/gem/ruby/3.2.0:/root/.local/share/mise/installs/ruby/3.2.3/lib/ruby/gems/3.2.0
+  User Home   /root
+  User Path   /root/.local/share/gem/ruby/3.2.0
+  Bin Dir     /root/.local/share/mise/installs/ruby/3.2.3/bin
+OpenSSL       
+  Compiled    OpenSSL 3.5.1 1 Jul 2025
+  Loaded      OpenSSL 3.5.1 1 Jul 2025
+  Cert File   /home/linuxbrew/.linuxbrew/Cellar/portable-openssl@3.5.1/3.5.1/libexec/etc/openssl/cert.pem
+  Cert Dir    /home/linuxbrew/.linuxbrew/Cellar/portable-openssl@3.5.1/3.5.1/libexec/etc/openssl/certs
+Tools         
+  Git         2.43.0
+  RVM         not installed
+  rbenv       not installed
+  chruby      not installed
+Gem.ruby      /root/.local/share/mise/installs/ruby/3.2.3/bin/ruby
+bundle #!     /bin/sh
+
+```
+
+## Bundler Build Metadata
+
+```
+Built At          2026-01-13
+Git SHA           unknown
+Released Version  false
+```
+
+## Gemfile
+
+### Gemfile
+
+```ruby
+source "https://rubygems.org"
+gemspec
+```
+
+### Gemfile.lock
+
+```
+<No /workspace/minimal-mistakes/Gemfile.lock found>
+```
+
+## Gemspecs
+
+### minimal-mistakes-jekyll.gemspec
+
+```ruby
+require "json"
+
+package_json = JSON.parse(File.read("package.json"))
+
+Gem::Specification.new do |spec|
+  spec.name                    = "minimal-mistakes-jekyll"
+  spec.version                 = package_json["version"]
+  spec.authors                 = ["Michael Rose", "iBug"]
+
+  spec.summary                 = %q{A flexible two-column Jekyll theme.}
+  spec.homepage                = "https://github.com/mmistakes/minimal-mistakes"
+  spec.license                 = "MIT"
+
+  spec.metadata["plugin_type"] = "theme"
+
+  spec.files                   = `git ls-files -z`.split("\x0").select do |f|
+    f.match(%r{^(assets|_(data|includes|layouts|sass)/|(LICENSE|README|CHANGELOG)((\.(txt|md|markdown)|$)))}i)
+  end
+
+  spec.add_runtime_dependency "jekyll", ">= 3.7", "< 5.0"
+  spec.add_runtime_dependency "jekyll-paginate", "~> 1.1"
+  spec.add_runtime_dependency "jekyll-sitemap", "~> 1.3"
+  spec.add_runtime_dependency "jekyll-gist", "~> 1.5"
+  spec.add_runtime_dependency "jekyll-feed", "~> 0.1"
+  spec.add_runtime_dependency "jekyll-include-cache", "~> 0.1"
+
+  spec.add_development_dependency "bundler"
+  spec.add_development_dependency "rake", ">= 12.3.3"
+end
+```
+
+--- TEMPLATE END ----------------------------------------------------------------
+
+Unfortunately, an unexpected error occurred, and Bundler cannot continue.
+
+First, try this link to see if there are any existing issue reports for this error:
+https://github.com/rubygems/rubygems/search?q=403+%22Forbidden%22&type=Issues
+
+If there aren't any reports for this error yet, please fill in the new issue form located at https://github.com/rubygems/rubygems/issues/new?labels=Bundler&template=bundler-related-issue.md, and copy and paste the report template above in there.
