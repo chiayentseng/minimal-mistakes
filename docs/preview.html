@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Minimal Mistakes Aqua Skin Preview</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --aqua-900: #083d4b;
+        --aqua-700: #0b5f70;
+        --aqua-500: #0f8197;
+        --aqua-300: #32b5c8;
+        --aqua-100: #e1f6fa;
+      }
+
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+        background: var(--aqua-100);
+        color: var(--aqua-900);
+      }
+
+      header {
+        background: linear-gradient(135deg, var(--aqua-700), var(--aqua-500));
+        color: white;
+        padding: 2.5rem 1.5rem;
+        text-align: center;
+      }
+
+      header p {
+        margin: 0.5rem 0 0;
+        opacity: 0.9;
+      }
+
+      main {
+        max-width: 880px;
+        margin: 2rem auto;
+        padding: 0 1.5rem 3rem;
+      }
+
+      .card {
+        background: white;
+        border-radius: 16px;
+        padding: 1.5rem;
+        box-shadow: 0 12px 30px rgba(8, 61, 75, 0.15);
+        border: 1px solid rgba(8, 61, 75, 0.08);
+      }
+
+      .swatches {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: 1rem;
+        margin-top: 1.5rem;
+      }
+
+      .swatch {
+        border-radius: 12px;
+        padding: 1rem;
+        color: white;
+        font-weight: 600;
+      }
+
+      .swatch.light {
+        color: var(--aqua-900);
+      }
+
+      footer {
+        text-align: center;
+        padding: 2rem 1rem;
+        color: var(--aqua-700);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Minimal Mistakes “Aqua” Skin Preview</h1>
+      <p>Static HTML preview to open locally when GitHub Pages is unavailable.</p>
+    </header>
+    <main>
+      <section class="card">
+        <h2>Preview Notes</h2>
+        <p>
+          This file provides a lightweight visual preview inspired by the Aqua skin palette.
+          It is not a full Jekyll build, but it lets you open a quick reference in any browser.
+        </p>
+        <div class="swatches">
+          <div class="swatch" style="background: var(--aqua-900)">Aqua 900</div>
+          <div class="swatch" style="background: var(--aqua-700)">Aqua 700</div>
+          <div class="swatch" style="background: var(--aqua-500)">Aqua 500</div>
+          <div class="swatch" style="background: var(--aqua-300)">Aqua 300</div>
+          <div class="swatch light" style="background: var(--aqua-100)">Aqua 100</div>
+        </div>
+      </section>
+    </main>
+    <footer>Open this file directly in your browser for a quick Aqua preview.</footer>
+  </body>
+</html>
